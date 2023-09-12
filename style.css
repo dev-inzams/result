@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#resultsheet {
+    background-color: #4D2DB7;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.marksheet {
+    padding: 25vh;
+    background: -webkit-gradient(linear, left top, right top, from(#effaff), to(#d9e7ff));
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /* justify-content: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    /* flex-direction: column; */
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    padding: 50px;
+    background: -webkit-gradient(linear, left top, right top, from(#09009f), to(#00ff95));
+    background: linear-gradient(90deg, #09009f 0%, #00ff95 100%); 
+    margin-left: 20px;
+}
+
+
+
+
+.result-form input {
+    width: 97%;
+    padding: 10px 5px;
+}
+.result-form textarea {
+    width: 97%;
+    padding: 10px 5px;
+}
+
+.result-btn input {
+    width: 99%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #EC53B0;
+    color: #fff;
+    border: none;
+}
+
+
+.grade {
+    text-align: center;
+    padding-top: 53px;
+}
+
+
+.congratulations {
+    font-size: 48px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 1s, transform 1s;
+    margin-top: 20px;
+
+
+  background: -webkit-linear-gradient(#9D44C0, #4D2DB7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div#coment-hight {
+    height: 334px;
+    overflow-y: scroll;
+}
+
+li {
+    color: #fff;
+    list-style: circle;
+    font-size: 20px;
+    background: red;
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
